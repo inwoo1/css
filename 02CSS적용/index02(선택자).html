@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index02 선택자</title>
+
+    <style>
+
+        * { }  /* 전역선택(디자인 시작전에 반드시적용할 기초문법)*/
+        b { color : red; }
+        ul, li {list-style:  none;} /* ,로 선택자 연결가능*/
+        #a1 {color: greenyellow;}
+        /* 화면에서 하나   #id */
+        .b1 {color: aqua;}
+        /* 화면에서 여러개  .class */
+        .abox p {color: red} /*공백도 선택자 (하위선택)*/
+        .abox > p {color: palevioletred} /* > 선택자(바로아래 직계자식선택)*/
+
+        
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div class="abox">
+        <p>하위선택자</p>
+        <p>하위선택자
+            <ul>
+                <li><p>하위선택자</p></li>
+                <li><p>하위선택자</p></li>
+            </ul>
+        </p>
+    </div>
+
+
+    <p id="a1">아이디선택자</p>
+    <p class="b1">클래스선택자</p>
+
+
+    
+
+
+
+
+    <b>b태그 선택자</b>
+
+    <ul>
+        <li>다중선택자</li>
+        <li>다중선택자</li>
+        <li>다중선택자</li>
+
+    </ul>
+    
+</body>
+</html>
