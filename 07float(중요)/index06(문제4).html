@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{list-style: none; padding: 0; margin: 0;}
+        .wrap{width: 1020px; margin: 0 auto;}
+        .content{overflow: hidden;}
+        .list-wrap{width: 480px; float: left; border: 1px solid #777;}
+        .slide-wrap{width: 236px; height: 310px; float: left; border: 1px solid #777; margin: 0 0 0 8px;}
+        .user-wrap{width: 280px; height: 310px; float: left; border: 1px solid #777; margin: 0 0 0 8px;}
+        .list-wrap ul li{
+            border: 1px solid #777;
+            width: 33.3333%;
+            float: left;
+            height: 155px;
+            box-sizing: border-box;
+        }
+        .user-login, .user-pro{
+            border: 1px solid #777;
+            height: 50%;
+            
+            
+        }
+        .user-login{
+            padding: 0 20px;
+        }
+        .user-m{
+            margin-top: 50px;
+        }
+        .user-m > p{ font-size: 5px; margin-bottom: 10px; color: #777;}
+        .melon{float: left;  }
+        .join{float: right; }
+        .login{ width: 100%;
+                color: white;
+                background-color: #19ce60;
+                border: none;
+                height: 40px;/*padding 20px 0;*/
+                      
+        }
+       
+        section{margin-top: 50px;}
+        
+    </style>
+</head>
+<body>
+    <!--
+        전체 1020px
+        488px ? 너비 33% 높이 155px
+        이미지 236px 높이 310px
+        로그인 280px
+        margin 8px 
+    -->
+    
+    <section>
+        <div class="wrap">
+        <h6>최신앨범(1020px)</h6>
+        <div class="content">
+         <div class="list-wrap">   <!-- 왼쪽 -->
+                <ul>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                </ul>
+        </div> 
+        <div class="slide-wrap"> <!-- 가운데 -->
+            <img src="img/fish.png" alt="">
+            이미지영역
+        </div>
+        <div class="user-wrap"> <!-- 오른쪽 -->
+            <div class="user-login">
+                <div class="user-m">
+                     <p class="melon">멜론을 더 안전하게 이용하세요</p>
+                     <p class="join">회원가입</p>
+                     <input type="button" class="login" value="로그인">
+                </div>   
+            </div>
+            <div class="user-pro">
+                프로모션영역
+            </div>
+
+        </div>
+        </div>
+    </div>
+ </section>
+
+
+
+    
+</body>
+</html>
