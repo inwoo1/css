@@ -73,7 +73,16 @@ html, body {font-family: 'Hahmlet', serif;}
 .tab-content ul li a {display: block;}
 .tab-content ul li a span {display: block;}
 .tab-content .re {position: relative;}
-.tab-content .ab {position: absolute; bottom: 5px; right: 0px;}
+.tab-content .ab {position: absolute; bottom: 5px; left:50px;}
 .tab-side {
     padding: 10px;
+}
+#main_footer{
+    border: 1px solid #777;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
