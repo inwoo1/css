@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {margin: 0; padding: 0; list-style: none;}
+        body{
+            background-image: url('img/bg.png');
+        }
+        .logo{
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        header .menu {background-color: black; width: 100%; text-align: center;}
+        header .menu  li{display: inline-block; padding: 20px;}
+        header .menu  li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+            
+        }
+        header .menu li:hover{
+            background-color: #4d4d4d;
+        }
+        .top {
+            position: fixed;
+            
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 50px;
+            background-color: #c13333;
+            font-size: 12px;
+            text-align: center;
+            line-height: 50px;
+            
+        }
+        .top a {
+            cursor: pointer;
+            text-decoration: underline;
+            font-size: 12px;
+            line-height: 50px;
+        }
+        .item {
+            background-color: white;
+            padding: 40px 0;
+            overflow: hidden;
+            
+        }
+        .item ul {
+            width: 960px;
+            margin: 0 auto;
+        }
+        .item li {
+            float: left;
+            width: 25%;
+            box-sizing: border-box;
+            text-align: center;
+           
+        }
+        section {
+            width: 700px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .left {
+            position: absolute;
+            top: 0;
+            left: -220px;
+        }
+        .right{
+            position: absolute;
+            top: 0;
+            right: -220px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.jpg" alt="로고">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+            </ul>
+        </nav>
+        <div class="top"><a href="#">TOP</a></div>
+    </header>
+
+    <div class="item">
+        <ul>
+            <li><img src="img/item01.png" alt="">
+                <br> iPhone
+            </li>
+            <li><img src="img/item02.png" alt="">
+                <br> iPod
+            </li>
+            <li><img src="img/item03.png" alt="">
+                <br> iPad
+            </li>
+            <li><img src="img/item04.png" alt="">
+                <br> iMac
+            </li>
+        </ul>
+    </div>
+
+    <section>
+        <div class="ipad">
+            <img src="img/ipad.jpg" alt="사진">
+
+            <div class="left">
+                <img src="img/side01.png" alt="">
+                <br>
+                <br>
+                <img src="img/side02.png" alt="">
+            </div>
+
+        <div class="right">
+                <img src="img/side03.png" alt="">
+                <br>
+                <br>
+                <img src="img/side04.png" alt="">
+        </div>
+        </div>
+
+
+    </section>
+    
+
+
+
+    
+</body>
+</html>

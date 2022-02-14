@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{padding: 0; margin: 0; list-style: none;}
+        .wrap{
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid #777;
+            position: relative;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .wrap-img {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        .wrap-img img{ width: 50px}
+
+        .wrap-content, .wrap-control{
+            padding-left: 60px;
+        }
+        .wrap-content textarea{
+            width: 100%;
+            box-sizing: border-box; 
+            resize: none; /*vertical 세로만 사이징가능*/
+            padding: 10px;
+        }
+        .wrap-control {overflow: hidden;} /*float의 법칙*/
+        .wrap-input{float: left;}
+        .wrap-control .button {float: right;}
+        .wrap-input input {
+            display: block;
+            width: 150px;
+            margin-bottom: 5px;
+        }
+        
+       
+       
+
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="wrap-img"> <!--이미지-->
+            <img src="img/fish.png" alt="프로필">
+        </div>
+        <div class="wrap-content"><!--내용-->
+            <textarea rows="10" placeholder="댓글등록"></textarea>
+        </div>
+        <div class="wrap-control"><!--버튼-->  
+            <div class="wrap-input">
+                <input type="text">
+                <input type="text">
+            </div>
+            <input type="button" value="등록하기" class="button">
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="wrap-img">
+            <img src="img/fish.png" alt="사진">
+        </div>
+         <div class="wrap-control"><!--버튼-->  
+            <div class="wrap-input">
+                <p><h3>제목</h3></p>
+                <p>내용</p>
+            </div>
+            <input type="button" value="삭제" class="button">
+            <input type="button" value="수정" class="button">
+        </div>
+    </div>
+    
+</body>
+</html>
