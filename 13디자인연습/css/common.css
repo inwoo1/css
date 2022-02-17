@@ -31,3 +31,12 @@ section, article{
 .btn{
     border-radius: 0;
 }
+.titlebox {
+    margin: 70px auto;
+    text-align: center;
+    width: 250px;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    height: 40px;
+    line-height: 40px;
+}

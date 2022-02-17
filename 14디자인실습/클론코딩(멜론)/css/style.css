@@ -1,0 +1,111 @@
+* {padding: 0; margin: 0; list-style: none;}
+#header{
+    border-top: 4px solid green;
+}
+.wrap {
+    border-bottom: 1px solid #999;
+}
+.top-header {
+    overflow: hidden;
+    width: 1008px;
+    margin: 0 auto;
+}
+.top-header .top-left, .top-right{
+    font-size: 12px;
+    color:#999;
+}
+.top-header .top-left {
+    float: left;
+    padding: 11px 7px;
+}
+.top-header .top-left a {
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+}
+.top-header .top-right {
+    float: right;
+    
+}
+.top-header .top-right ul {
+    display: block;
+}
+.top-header .top-right ul li {
+    display: inline;
+    border-left: 1px solid #666;
+}
+.top-header .top-right ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #666;
+    padding: 11px 7px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.mid-header {
+    overflow: hidden;
+    width: 1008px;
+    margin: 0 auto;
+}
+.mid-header img.logo{
+    float: left;
+}
+.mid-header .logo-right {
+    float: right;
+    margin-top: 10px;
+}
+.mid-header fieldset{
+    float: left;
+    overflow: hidden;
+    border: none;
+    width: 330px;
+    height: 40px;
+    margin: 36px 0 0 11px;
+    background-image: url('../img/melon_search.png');
+}
+.mid-header fieldset .search {
+    float: left;
+    width: 260px;
+    height: 25px;
+    margin: 7px 0 0 18px;
+    border: none;
+}
+.mid-header fieldset .button {
+    float: right;
+    background-image: url('../img/melon_btn.png');
+    width: 45px;
+    height: 40px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    
+}
+.bottom-header {
+    overflow: hidden;
+    width: 1008px;
+    margin: 0 auto;
+}
+.bottom-header ul li {
+    display: inline;
+}
+.bottom-header .bottom-left {
+    float: left;
+}
+.bottom-header .bottom-right{
+    float: right;
+}
+.bottom-left li a , .bottom-right li a{
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-weight: 700;
+
+}
+.bottom-left li a:hover{
+    color: green;
+}
