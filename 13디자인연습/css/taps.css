@@ -1,0 +1,18 @@
+.taps-basic {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.taps-basic li {
+    width: 16.6666%;
+}
+.taps-basic li a {
+    border-radius: 0px;
+    margin: 0px;
+    color: #555555;
+
+}
+.taps-basic > li.active > a,
+.taps-basic > li.active > a:hover,
+.taps-basic > li.active > a:focus{
+    border-color: #ddd;
+}
